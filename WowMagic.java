@@ -1,4 +1,4 @@
-import bruh.Dog;
+import lol.Dog;
 
 class WowMagic {
   public static void main(String[] args) {
@@ -7,5 +7,7 @@ class WowMagic {
     dog.sayHello();
     Dog.main(lol);
     dog.sayHello();
+    Cat cat = new Cat("Stalin");
+    cat.sayHello();
   }
 }

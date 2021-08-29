@@ -1,3 +1,4 @@
+// This is a package. And yes, a package has to have the same name as the folder.
 package lol;
 
 
@@ -16,7 +17,7 @@ public class Dog {
   }
 
   public void sayHello () {
-    System.out.println("Hello, I'm " + this.name + ". One of " + this.numberOfDogs + ". Btw, Oli knows how to program lol.");
+    System.out.println("Hello, I'm a bitch called  " + this.name + ". One of " + this.numberOfDogs + ". Btw, Oli knows how to program lol.");
   }
 
   // You can access this from all the dogs when we instantiate them them (think "new")
@@ -25,7 +26,7 @@ public class Dog {
   }
 
   public static void main(String[] args) {
-    System.out.println("Hello there, general Kenobi.");
+    System.out.println("Dog.Main: Hello there, general Kenobi.");
     Dog dog = new Dog("Beeeesh");
     dog.sayHello();
     // Here we construct/instantiate an object of the "Dog" class into the variable "dog"
