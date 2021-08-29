@@ -11,11 +11,12 @@ public class Dog {
 
   // This is the contstructor
   public Dog (String name) {
-    // Here
     this.name = name;
+    // We increment the static variable
     this.numberOfDogs++;
   }
 
+  // this is a method
   public void sayHello () {
     System.out.println("Hello, I'm a bitch called  " + this.name + ". One of " + this.numberOfDogs + ". Btw, Oli knows how to program lol.");
   }
@@ -31,6 +32,7 @@ public class Dog {
     dog.sayHello();
     // Here we construct/instantiate an object of the "Dog" class into the variable "dog"
     Dog dog2 = new Dog("Trixie");
+    // Calling a method
     dog2.sayHello();
     dog.sayHello();
     Dog dog3 = new Dog("Suckkkyyyy");
